@@ -1,0 +1,76 @@
+body{
+    background-image: url('https://www.shutterstock.com/shutterstock/videos/1104096465/thumb/1.jpg?ip=x480');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Poppins';
+}
+#form{
+    width: 400px;
+    margin: 10vh auto 0 auto;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 30px;
+}
+h1{
+    text-align: center;
+    color: blue;
+}
+#form button{
+    background-color: blue;
+    color: white;
+    width: 100%;
+    border-radius: 9px;
+    padding: 10px; 
+    border: 1px solid blue;
+    margin: 16px 0px;
+    margin-top: 9px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 20px;  
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.input-group input{
+    background-color: gainsboro;
+    border-radius: 5px;
+    border: 1.5px solid #00D4FF;
+    height: 26px;
+    font-size: 18px;
+    font-family: 'poppins';
+    margin-top: 5px;
+    padding: 5px;
+}
+.error{
+    color: red;
+    margin-top: 5px;
+    font-size: 16px;
+}
+.input-group.success input{
+    border-color: #008000;
+}
+.input-group.error input{
+    border-color: #FF0000;
+}
+#fpass{
+   
+    text-align: end;
+    margin-left: 165px;
+}
+.reg{
+   margin-top: 1px;
+   margin-left: 1px; 
+   flex-wrap: nowrap;
+}
+#btnreg{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.agree{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
